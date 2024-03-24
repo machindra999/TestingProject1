@@ -23,6 +23,7 @@ public class ClickUsingAC {
 //		Thread.sleep(1000);
 //		act.click().perform();
 		act.click(loginButton).perform();
+		System.out.println("done");
 
 	}
 
